@@ -1,0 +1,110 @@
+/*CSS Global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+/*Header*/
+header {
+    background-color: #00558f;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+header h1 {
+    padding: 10px;
+}
+
+/*Section*/
+.tabela h3{
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    font-size: 1.3rem;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+/*Tabela*/
+table{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 15px;
+    border-collapse: collapse;
+}
+
+div#container {
+    overflow-x: auto;
+}
+.cabecalho{
+    font-weight: bold;
+}
+
+table tr {
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+    background-color:#67676741;
+}
+
+table tbody tr:hover {
+    background-color: #00558f;
+    color: #fff;
+    transition: .5s ease-in;
+}
+
+table th,
+table td {
+    padding: 8px;
+	vertical-align: middle;
+    border: 1px solid;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+table tr td:first-child {
+	font-weight: bold;
+}
+
+table th {
+    text-align: center;
+    background-color: #00558f;
+    color: #fff;
+}
+
+.tabela tfoot {
+	background: #00558f;
+    color: #fff;
+}
+
+.tabela tfoot td {
+	font-weight: bold;
+}
+
+/*Footer*/
+footer {
+    background-color: #00558f;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    table{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    table{
+        font-size: .6rem;
+    }
+}

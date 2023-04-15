@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+strong {
+    color: #49896b;
+}
+
+.filtro {
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+}
+
+.filtro:hover {
+    transition: .5s ease-in-out;
+    filter: grayscale(0%);
+}
+
+.filtro-02 {
+    filter: brightness(50%);
+    transition: .5s ease-in-out;
+}
+
+.filtro-02:hover {
+    filter: brightness(100%);
+    transition: .5s ease-in-out;
+}
+
+/*HEADER*/
+header {
+    background-color: #49896b;
+}
+
+.header {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: #fff;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav > ul > li{
+    margin-left: 20px;
+}
+
+li a {
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #6dae8e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: .5s ease-in;
+}
+
+li a:hover {
+    background-color: #90d2b1;
+}
+
+/*Banner*/
+#banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#div-paragro {
+    width: 40%;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+#div-paragro h2 {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+#div-paragro p {
+    text-align: justify;
+    padding: 0px 10px 10px 10px;
+    line-height: 30px;
+}
+
+.btn-3 {
+    width: 40%;
+    font-size: .8rem;
+    color: #fff;
+    background-color: #6dae8e;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s ease-in;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-3:hover {
+    background-color: #90d2b1;
+}
+
+#div-img{
+    width: 50%;
+}
+
+div img{
+    width: 100%;
+    border-radius: 5px;
+}
+/*Section*/
+section{
+    width: 80%;
+    margin: auto;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px 5px 20px 5px;
+    font-weight: 500;
+    font-weight: 400;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid black;
+    width: 22%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h2 {
+    font-weight: 500;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.4rem;
+}
+
+.card p {
+    font-size: 1rem;
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 22px;
+}
+
+.btn {
+    font-size: .8rem;
+    color: #fff;
+    background-color: #6dae8e;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s ease-in;
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #90d2b1;
+}
+
+/*SECTION 02*/
+form {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+form label{
+    margin-bottom: 5px;
+}
+
+form div {
+    margin-bottom: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 10px 5px;
+}
+
+#agendar-visita {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+#agendar-visita div h2 {
+    font-weight: 500;
+    padding: 10px 0px 5px 0px;
+}
+
+#agendar-visita div p {
+    padding: 5px 0px 15px 0px;
+    line-height: 25px;
+}
+
+.btn-2 {
+    font-size: .8rem;
+    color: #fff;
+    background-color: #6dae8e;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s ease-in;
+    border: none;
+    width: 15%;
+    margin-right: 10px;
+}
+
+.btn-2:hover {
+    background-color: #90d2b1;
+}
+
+.btn-2-posicao {
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: .9rem;
+}
+
+input, textarea, select {
+    padding: 5px;
+    width: 100%;
+}
+
+/*Tabela*/
+table{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 15px;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table tr {
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+    background-color:#67676741;
+}
+
+table tbody tr:hover {
+    background-color: #49896b;
+    color: #fff;
+    transition: .5s ease-in;
+}
+
+table th,
+table td {
+    padding: 8px;
+	vertical-align: middle;
+    border: 1px solid;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+table tr td:first-child {
+	font-weight: bold;
+}
+
+table th {
+    text-align: center;
+    background-color:#67676741;
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.tabela tfoot {
+	background: #00558f;
+    color: #fff;
+}
+
+.tabela tfoot td {
+	font-weight: bold;
+}
+
+/*FOOTER*/
+footer {
+    margin-top: 30px;
+    background-color: #49896b;
+    height: 50px;
+    color: #fff;
+}
+
+footer p {
+    padding-top: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    section, .header {
+        width: 90%;
+    }
+    #banner {
+        flex-direction: column-reverse;
+    }
+
+    #div-paragro {
+        width: 100%;
+    }
+
+    #div-img {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    form div {
+        margin-bottom: 20px;
+        width: 100%;
+        margin: auto;
+        padding: 10px 5px;
+    }
+
+    .btn {
+        margin-top: 30px;
+    }
+
+    .btn-3{
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .header {
+        flex-direction: column;
+        height: 100px;
+        padding-bottom: 15px;
+    }
+
+    header h1 {
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    li a {
+        font-size: .9rem;
+        color: #fff;
+        background-color: #6dae8e;
+        padding: 5px;
+        border-radius: 5px;
+        transition: .5s ease-in;
+    }
+
+    section, .header {
+        width: 90%;
+    }
+
+    #banner {
+        flex-direction: column-reverse;
+    }
+
+    #div-paragro {
+        width: 100%;
+    }
+
+    #div-img {
+        width: 100%;
+    }
+
+    section{
+       width: 98%; 
+    }
+
+    section h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .card h2 {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: .9rem;
+        margin-top: 30px;
+        width: 40%;
+    }
+
+    form div {
+        margin-bottom: 20px;
+        width: 100%;
+        margin: auto;
+        padding: 10px 5px;
+    }
+
+    .btn-2 {
+        width: 50%;
+        text-align: center;
+    }
+
+}
