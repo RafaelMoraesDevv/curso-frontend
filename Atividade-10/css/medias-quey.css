@@ -1,0 +1,21 @@
+@media screen and (min-width: 426px) and (max-width:768px){
+
+    img {
+         margin-top: 4rem;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media  (max-width:425px) {
+    img {
+        margin-top: 4rem;
+   }
+
+   .card {
+    width: 100%;
+   }
+}

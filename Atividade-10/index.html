@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <title>Document</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/medias-quey.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row mb header">
+                <div class="col-md-2 col-sm-2">
+                    <h1>rsm</h1>
+                    <H2>Tecnologia</H2>
+                </div>
+
+                <div class="col-md-10 col-sm-10">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="row sobre">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre nós</h2>
+
+                    <p class="paragrago-sobre">Nosso objetivo é servir como seu parceiro de tecnologia com foco no fornecimento de soluções. Utilizando uma abordagem consultiva de avaliação de necessidades de negócios e tecnologia, nós podemos indicar as melhores soluções para suas necessidades atuais e futuras</p>
+
+                    <p class="paragrago-sobre">Para maiores informações, clique no botão entrar em contato, escolha um dos nossos canais disponíveis e fale com nossa equipe de consultores.</p>
+
+                    <a class="btn btn-lg btn-success bottom" href="#contato">Entrar em contato</a>
+                </div>
+
+                <div class="col-md-5 col-sm-12 img" style="text-align: center;">
+                    <img src="img/banne-p.png" alt="foto de tecnologia" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Nossos Principais Serviços</h2>
+                    <div class="card">
+                        <img src="img/ServiceDesk.jpg" alt="Service Desk" class="img-fluid desfoque">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Service Desk</h5>
+                            <p class="card-text">Nossos analista são treinados para dar o melhor suporte possivel a sua empresa, clique em mais informações	e fique por dentre de nossos serviços.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#moda-1">Mais Informações</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/servidores.jpg" alt="Servidores" class="img-fluid desfoque">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud</h5>
+                            <p class="card-text">Está à procura de planos de hospedagem cloud testados e aprovados? Venha para RSM Tecnologia! Todos os planos incluem um domínio grátis. Ativação do servidor em poucos cliques.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#moda-2">Mais Informações</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/foto.jpg" alt="Telecom" class="img-fluid desfoque">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Telecom</h5>
+                            <p class="card-text">Aumente a produtividade, reduza custos e tenha o controle total dos custos de Telecom! Obtenha o melhor software de gestão empresarial e tenha todas as vantagens RSM Tecnologia.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#moda-3">Mais Informações</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Entre em contato com a RSM Tecnologia e adquira nossos <strong>serviços</strong>.</p>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+                        <div class="input-group">
+                            <input class="form-control" type="text"  name="nome" placeholder="Digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control"  type="email"  name="email" placeholder="Digite seu e-mail">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control"  type="tel"  name="telefone" placeholder="Digite seu telefone">
+                        </div>
+
+                        <div class="input-group">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Selecione um Serviço</option>
+                                <option value="service Desk">Service Desk</option>
+                                <option value="cloud">Cloud</option>
+                                <option value="telecom">Telecom</option>
+                              </select>
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control"  name="assunto"  cols="5" rows="5" placeholder="Assunto"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Entrar em contato</button>
+                        <button type="reset" class="btn btn-lg btn-danger">Apagar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="moda-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Serviço Service Desk</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <h6>Confira os valores abaixo</h6>
+                    <table class="table table-hover table-striper">
+
+                        <thead>
+                            <tr>
+                                <th>Tamanho da empresa</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+
+                        <tboby>
+                            <tr>
+                                <td>Pequeno porte, até 50 funcionários</td>
+                                <td>R$ 00,00</td>
+                            </tr>
+                            <tr>
+                                <td>Médio porte, de 50 a 250 funcionários</td>
+                                <td>R$ 00,00</td>
+                            </tr>
+                            <tr>
+                                <td>Grande porte, acima de 250 funcionários</td>
+                                <td>R$ 00,00</td>
+                            </tr>
+                        </tboby>
+                    </table>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="moda-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Serviço Cloud</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <h6>Confira valores abaixos</h6>
+                    <table class="table table-hover table-striper">
+
+                        <thead>
+                            <tr>
+                                <th>Tamanho da empresa</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+
+                        <tboby>
+                            <tr>
+                                <td>Pequeno porte, até 50 funcionários</td>
+                                <td>R$ 00,00</td>
+                            </tr>
+                            <tr>
+                                <td>Médio porte, de 50 a 250 funcionários</td>
+                                <td>R$ 00,00</td>
+                            </tr>
+                            <tr>
+                                <td>Grande porte, acima de 250 funcionários</td>
+                                <td>R$ 00,00</td>
+                            </tr>
+                        </tboby>
+                    </table>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="moda-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Serviço Telecom</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <h6>Confira os valores abaixo</h6>
+                    <table class="table table-hover table-striper">
+
+                        <thead>
+                            <tr>
+                                <th>Confira valores abaixos</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+
+                        <tboby>
+                            <tr>
+                                <td>Pequeno porte, até 50 funcionários</td>
+                                <td>R$ 00,00</td>
+                            </tr>
+                            <tr>
+                                <td>Médio porte, de 50 a 250 funcionários</td>
+                                <td>R$ 00,00</td>
+                            </tr>
+                            <tr>
+                                <td>Grande porte, acima de 250 funcionários</td>
+                                <td>R$ 00,00</td>
+                            </tr>
+                        </tboby>
+                    </table>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col rodape">
+                    <small>Desenvolvido por Rafael Moraes</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
