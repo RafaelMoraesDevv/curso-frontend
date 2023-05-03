@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500&display=swap');
+
+:root {
+    --cor-primary:#1CADDD;
+    --font-primary:'Roboto', sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+textarea {
+    width: 100% !important;
+}
+
+.cadastro {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+strong {
+    color: var(--cor-primary);
+    text-transform: uppercase;
+}
+
+header{
+    background-color: var(--cor-primary);
+    height: auto;
+    padding-top: 10px;
+    color: #fff;
+    font-family: var(--font-primary);
+}
+
+.header {
+    align-items:center;
+}
+
+.nav-link {
+    color: #fff;
+    transition: .5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    transition: .5s ease-in-out;
+}
+
+header h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+header h2 {
+    margin-top: -15px;
+    font-size: 1.6rem;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.titulo-banner {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.link-baner {
+    color: var(--cor-primary);
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.link-baner:hover {
+    text-decoration: underline;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.img-sobre {
+    margin-top: 40px;
+}
+
+.paragrago-sobre {
+    font-size: 1.1rem;
+    line-height: 35px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+input, textarea, select {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+.desfoque {
+    filter: brightness(90%);
+    transition: .5s ease-in-out;
+}
+
+.desfoque:hover {
+    filter: brightness(100%);
+}
+
+.desfoque2 {
+    filter: brightness(80%);
+    transition: .5s ease-in-out;
+}
+
+.desfoque2:hover {
+    filter: brightness(100%);
+}
+
+footer {
+    background-color: var(--cor-primary);
+    text-align: center;
+    height: 50px;
+}
+
+footer .rodape {
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 10px;
+}
