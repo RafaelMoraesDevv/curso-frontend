@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #696969;
+    padding: 20px 0px;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+section {
+    background-color: #D3D3D3;
+    padding-top: 20px;
+}
+
+h2, h3, form {
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+ul {
+    margin-bottom: 0px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #696969;
+    text-align: center;
+    height: 50px;
+    color: #fff;
+}
+
+footer .rodape {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+
