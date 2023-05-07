@@ -1,0 +1,153 @@
+/*
+    Theme name: Blog Theme
+    Theme URI: 
+    Author: Rafael
+    Author URI: 
+    Github Theme URI:  
+    Description: Tema customizado para blog...
+    Version: 1.0.0
+    Text domain: pt_BR
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+}
+
+p {
+   text-align: justify; 
+   line-height: 30px;
+   text-indent: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wp-block-image img,
+img {
+    max-width: 100% !important;
+    height: auto;
+}
+
+header {
+    background-color: #708090;
+    width: 100%;
+}
+
+header h1 a{
+    color: #fff;
+}
+
+footer {
+    background-color: #dedede;
+    width: 100%
+}
+
+aside {
+    padding-left: 2rem;
+}
+
+section {
+}
+
+h1, h2, h3, h4, h5, h6, p, form  {
+    margin-bottom: 2rem;
+    
+}
+
+a {}
+
+h2 a {
+    color: black;
+}
+
+p a {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 2rem;
+    transition: .5s ease-in-out;
+}
+
+p a:hover {
+    background-color: black;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+li a {
+    color: #fff;
+    font-size: 2rem;
+    transition: .5s ease-in-out;
+}
+
+li a:hover {
+    color: #bbb;
+    transition: .5s ease-in-out;
+}
+
+header .container,
+main.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+}
+
+.header-menu,
+main section {
+    width: 66.6%;
+}
+
+.menu-header-container {
+    width: 100%;
+}
+
+.header-logo,
+main aside {
+    width: 33.3%;
+    display: inline;
+}
+
+ul.menu,
+#sidebar ul {
+    list-style: none;
+    width: 100%;
+}
+
+ul.menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+ul.menu li {
+    margin: 1rem .5rem;
+    display: inline-flex;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 1000px;
+}
