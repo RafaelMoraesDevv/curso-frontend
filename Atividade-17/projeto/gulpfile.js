@@ -35,7 +35,7 @@ function tarefasJS(callback) {
             './src/js/custom.js'
     ])  
         .pipe(babel({
-            Comments: false,
+            comments: false,
             presets: ['@babel/env']
     }))
         .pipe(concat('scripts.js'))
