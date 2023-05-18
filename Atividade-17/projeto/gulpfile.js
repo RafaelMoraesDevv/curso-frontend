@@ -40,7 +40,7 @@ function tarefasJS(callback) {
     }))
         .pipe(concat('scripts.js'))
         .pipe(uglify())
-        .pipe(rename({ suffix: '.min'})) // libs.min.js
+        .pipe(rename({ suffix: '.min'})) // libs.min.js.
         .pipe(gulp.dest('./dist/js'))
     return callback()    
 }
