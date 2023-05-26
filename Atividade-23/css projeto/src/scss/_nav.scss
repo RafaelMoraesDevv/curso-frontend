@@ -1,0 +1,28 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    align-items: center;
+
+    @media (max-width: 425px){
+            flex-direction: column;
+        }    
+
+    &__item {
+        color: $font-color-primary;
+        font-size: $font-size-nav;
+        text-decoration: none;
+        position: relative;
+
+    @media (max-width: 425px){
+            margin-bottom: 20px;
+        }  
+
+        &:hover {
+            color: $color-secondary;
+            animation: toTop;
+            animation-duration: 1s;
+        }
+    }
+}
